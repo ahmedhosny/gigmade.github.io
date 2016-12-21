@@ -173,10 +173,18 @@ $(document).ready(function () {
 
     $("#owl-demo").owlCarousel({
         navigation: true, // Show next and prev buttons
-        slideSpeed: 300,
-        paginationSpeed: 400,
+        slideSpeed: 1000,
+        paginationSpeed: 1000,
         singleItem: true,
-        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"], 
+        //  
+        loop:true,
+        autoPlay:4000
+        //
+        //  items:3,
+        // margin:10,
+        // autoplayTimeout:1000,
+        // autoplayHoverPause:true
     });
     $("#owl-demo-small").owlCarousel({
         navigation: true, // Show next and prev buttons
@@ -209,11 +217,13 @@ $(document).ready(function () {
         paginationSpeed: 400,
         singleItem: true,
         items: 1,
+
         navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
     });
     $("#blog-slider").owlCarousel({
         navigation: false,
         items: 3,
+        autoPlay: 2500,
         itemsDesktop: [1200, 3],
         itemsTablet: [800, 2],
         itemsMobile: [700, 1]
