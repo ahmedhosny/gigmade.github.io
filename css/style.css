@@ -387,7 +387,7 @@ p.uppercase a:hover { text-decoration: none;}
     Slider background and overlay
 ====================================== */
 
-.slider-overlay{ position: absolute; height: 100%; width: 100%; opacity: 0.6; z-index: 1; top:0; left: 0 }
+.slider-overlay{ position: absolute; height: 100%; width: 100%; opacity: 0.3; z-index: 1; top:0; left: 0 }
 .video-background{ position: absolute; height: 100%; width: 100%; z-index: 1; top:0; background: rgba(67,67,67,0.5) }
 .slider-overlay-half{ position: absolute; height: 60%; width: 100%; opacity: 0.9; z-index: 1; bottom:0; }
 .slider-text { position: relative; left:0px; right:0px; z-index:1}
@@ -412,7 +412,7 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 .shrink-nav .container { height: 60px; }
 .shrink-nav { background-color:#FFF; }
 .sticky-nav{ position: fixed; top: 0px; display: inline-table;}
-.logo { max-width: 109px; }
+.logo { max-width: 160px; }
 .logo-style-2 { max-width: 177px; }
 .logo-style-3 { max-width: 210px; }
 .sticky-nav .logo-light { height: 55px; vertical-align: middle; display: table-cell;}
@@ -664,8 +664,8 @@ footer ul.list-inline li:first-child {padding-left: 6px}
 .owl-page.active span { background: none repeat scroll 0 0 transparent; border: 1px solid rgba(255, 255, 255, 0.8); transform: scale(1.33333); }
 .owl-bg-img { background-position: center center; background-repeat: no-repeat; background-size: cover; display: block; overflow: hidden; position: relative; width: 100%; }
 .owl-subtitle { font-size: 14px; letter-spacing: 10px; text-transform: uppercase; font-weight: 400; line-height: 80px; display:block}
-.owl-title { font-size: 35px; font-weight: 600; text-transform: uppercase; display: block; letter-spacing: 7px;}
-.owl-title-big { background: rgba(0, 0, 0, 0.5); display: inline-block; font-size: 25px; font-weight: 600; letter-spacing: 7px; line-height: 40px; padding: 35px 50px; text-transform: uppercase; width: 60% }
+.owl-title { font-size: 35px; font-weight: 600; text-transform: uppercase; display: block; letter-spacing: 7px; text-align: center;}
+.owl-title-big { background: rgba(0, 0, 0, 0.5); display: inline-block; font-size: 25px; font-weight: 600; letter-spacing: 7px; line-height: 40px; padding: 35px 50px; text-transform: uppercase }
 .dark-pagination .owl-page span { background: none repeat scroll 0 0 rgba(0, 0, 0, 1); box-shadow: none }
 .dark-pagination .owl-page.active span {background:transparent; border: 1px solid rgba(0, 0, 0, 1); }
 .dark-pagination .owl-prev, .owl-next { opacity: 1; }
@@ -713,9 +713,9 @@ footer ul.list-inline li:first-child {padding-left: 6px}
 .slider-text-middle-main { display: table; height: 100%; width: 100% }
 .slider-text-bottom { display: table-cell; vertical-align: bottom; }
 .slider-text-top { display: table-cell; vertical-align: top; }
-.slider-text-middle { display: table-cell; vertical-align: middle; }
+.slider-text-middle { display: table-cell; vertical-align: bottom; padding-bottom: 100px}
 .slider-text-middle1 { padding: 0 15px;}
-.slider-typography { text-align: center; width: 100%; height: 100%; position: absolute; z-index: 1; right: 0; left: 0; }
+.slider-typography {  width: 100%; height: 100%; position: absolute; z-index: 1; right: 0; left: 0; }
 .slider-subtitle1 { background-color: #000; display: block; font-family: "Oswald",sans-serif; font-size: 48px; font-weight: 100; letter-spacing: 4px; line-height: 68px; margin-bottom: 45px; padding: 30px 35px; text-align: center; text-transform: uppercase; width: 250px; }
 .slider-title-big1 {font-size: 14px; text-transform: uppercase; letter-spacing: 1px }
 .slider-text-middle1 .separator-line { margin: 3% 0 0 0}
@@ -2041,3 +2041,9 @@ thead th.first { padding-left: 0 !important; }
 .demo-link {margin:25px 0 0; text-transform:uppercase; font-size:11px; font-weight: 600; letter-spacing: 2px; display: block}
 .demo-image img:hover{ opacity:0.7;}
 .demo-figure {background:#ffe400; text-transform: uppercase; font-size: 13px; padding: 10px 25px; color: #393939; font-weight: 600; letter-spacing:3px}
+
+.myBlackShit{
+
+    color: black;
+}
+

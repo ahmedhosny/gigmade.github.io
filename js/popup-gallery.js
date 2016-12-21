@@ -18,18 +18,21 @@ $(document).ready(function () {
     /*==============================================================*/
     //Lightbox gallery - START CODE
     /*==============================================================*/
-    $('.lightbox-gallery').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        tLoading: 'Loading image #%curr%...',
-        mainClass: 'mfp-fade',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-        }
+    $('.lightbox-gallery').each(function() {
+        $(this). magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            tLoading: 'Loading image #%curr%...',
+            mainClass: 'mfp-fade',
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+            }
+        });
     });
-    
+
+
     $('.header-search-form').magnificPopup({
         mainClass: 'mfp-fade',
         closeOnBgClick: false,
