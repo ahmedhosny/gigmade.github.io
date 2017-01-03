@@ -56,7 +56,7 @@ Table of contents
     Reset
 ====================================== */
 
-body{ font-family: 'Open Sans', sans-serif; -webkit-font-smoothing: antialiased; font-size:13px; color:#626262; line-height:23px; letter-spacing: 0.02em }
+body{ font-family: 'Open Sans', sans-serif; -webkit-font-smoothing: antialiased; font-size:18px; color:#626262; line-height:23px; letter-spacing: 0.02em }
 a{ color: #000; }
 a:hover{ color: #575757; }
 img { -webkit-backface-visibility: hidden; max-width:100%; height:auto; }
@@ -122,7 +122,7 @@ h1.page-title { margin:95px auto 0; width: 100%; }
 /* different text size */
 .text-small { font-size:11px !important; line-height:15px !important;}
 .text-med{ font-size:14px !important; line-height:26px !important;}
-.text-large { font-size: 15px !important; text-transform: uppercase; line-height: 24px !important; letter-spacing: 2px !important;}
+.text-large { font-size: 20px !important; text-transform: uppercase; line-height: 29px !important; letter-spacing: 2px !important;}
 .text-extra-large { font-size: 16px !important; line-height: 28px !important; font-weight: 100; }
 .text-extra-large strong { letter-spacing: 3px}
 .text-extra-large-normal { font-weight: normal !important;}
@@ -664,7 +664,7 @@ footer ul.list-inline li:first-child {padding-left: 6px}
 .owl-page.active span { background: none repeat scroll 0 0 transparent; border: 1px solid rgba(255, 255, 255, 0.8); transform: scale(1.33333); }
 .owl-bg-img { background-position: center center; background-repeat: no-repeat; background-size: cover; display: block; overflow: hidden; position: relative; width: 100%; }
 .owl-subtitle { font-size: 14px; letter-spacing: 10px; text-transform: uppercase; font-weight: 400; line-height: 80px; display:block}
-.owl-title { font-size: 35px; font-weight: 600; text-transform: uppercase; display: block; letter-spacing: 7px; text-align: center;}
+.owl-title { font-size: 35px; font-weight: 600; text-transform: uppercase; display: block; letter-spacing: 7px; text-align: center;line-height: normal;}
 .owl-title-big { background: rgba(0, 0, 0, 0.5); display: inline-block; font-size: 25px; font-weight: 600; letter-spacing: 7px; line-height: 40px; padding: 35px 50px; text-transform: uppercase }
 .dark-pagination .owl-page span { background: none repeat scroll 0 0 rgba(0, 0, 0, 1); box-shadow: none }
 .dark-pagination .owl-page.active span {background:transparent; border: 1px solid rgba(0, 0, 0, 1); }
